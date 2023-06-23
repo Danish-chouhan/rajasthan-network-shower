@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body */
+ body{
+    padding: 40px 300px;
+    display: flex;
+    justify-content: center;
+ }
+/* main container */
+.Main-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 550px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    flex-wrap: wrap;
+}
+
+/* selector */
+#selecting{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    height: 25px;
+}
+
+/* image */
+
+.Images-container{
+    height: 95%;
+    width: 100%;
+}
+.Images-container img{
+    height: 500px;
+    width: 500px;
+}
